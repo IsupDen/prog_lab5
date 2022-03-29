@@ -7,6 +7,10 @@ import java.util.Queue;
 
 import static util.TextFormat.helpText;
 
+/**
+ * @command "display help for available commands."
+ */
+
 public class Help extends Command{
 
     private final Map<String, Command> commandsInfo;

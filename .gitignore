@@ -1,2 +1,17 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+
+# Report files
+*.docx
+
 # Project exclude paths
 /target/
+/javadoc/
+/.idea/
+/src/test/

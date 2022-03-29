@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>isupov</groupId>
-    <artifactId>lab5.1</artifactId>
+    <artifactId>lab5</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -14,6 +14,12 @@
 
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.3.2</version>
+            <type>maven-plugin</type>
+        </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
